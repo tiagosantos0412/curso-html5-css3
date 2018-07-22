@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 04</title>
+</head>
+
+<body>
+    
+    <strong>Formulários</strong>
+
+    <p>
+        Uma necessidade muito comum para desenvolvedores, são locais onde os usuários possam interagir com a página
+        e enviar informações para serem processadas, <br />como por exemplo, um formulário de cadastro, um formulário de login
+        ou um campo para pesquisas.  
+    </p>
+    <p>
+        Essas formas de se comunicar com a página irão variar de acordo com a necessidade de cada desenvolvedor. 
+        Em um determinado site podemos fazer um <br />cadastro somente com o nome, e-mail e senha, já em outros sites pode haver a necessidade
+        de obtermos várias outras informações. 
+    </p>
+    <p>
+        Iremos então aprender quais as formas que o HTML nos oferece para iteração com os nossos usuários.
+    </p>
+    <p>
+        Antes de qualquer coisa vamos ver a tag < form >, essa tag não apresenta uma referência visual quando criada, mas apresenta smsnticamente
+        um <br /> formulário, então é dentro dela que vamos criar nossos campos. 
+    </p>
+
+    <form>
+        <!-- campos do formulário -->
+    </form>
+
+    <p>
+        A tag < form > pode aceitar vários tipos de atributos, com os quais podemos, por exemplo, configurar como o formulário irá enviar
+        as <br />informações digitadas para o servidor.
+    </p>
+
+    <hr />
+
+    <strong>Accept-charset</strong>
+
+    <p>
+        É utilizado para definir qual charset será utilizado pelo formulário. Por exemplo: UTF-8.
+    </p>
+
+    <form accept-charset="UTF-8"></form>
+
+    <hr />
+
+    <strong>Autocomplete</strong>
+
+    <p>
+        Sempre definimos o atributo autocomplete (auto completar), a medida em que usamos os campos de um formulário o navegador 
+        começará a sugerir <br />valores para o que estamos digitando, com base em valores que foram digitados anteriormente. Por exemplo:
+    </p>
+
+    <form autocomplete="on">
+        <input type="text" name="email">
+    </form>
+
+    Depois de digitarmos TreinaWeb e submetermos o formulário, quando voltarmos o campo autocomplete será ativado, e quando iniciarmos 
+    a digitação da <br />palavra, ele já vai nos surgerir o complemento.
+
+    <hr />
+
+    <strong>Action</strong>
+    
+    <p>
+        Este atributo especifica para onde os dados do formulário serão enviados. Normalmente será o link de uma página no servidor:
+    </p>
+
+    <form action="http://www.nosso-servidor.com.br/cadastro/usuario.php"></form>
+
+    <hr />
+
+    <strong>Method</strong>
+
+    <p>
+        Especifica o método do HTTP que será utilizado para a submissão (get ou post):
+    </p>
+
+    <form action="http://www.nosso-servidor.com.br/cadastro/usuario.php" method="post"></form>
+
+    <p>
+        Este parâmetro só funciona para métodos do tipo POST.
+    </p>
+
+    <hr />
+
+    <strong>Novalidate</strong>
+
+    <p>
+        Impede a validação dos campos antes da submissão.
+    </p>
+    <form novalidate></form>
+
+    <hr />
+
+    <strong>Target</strong>
+
+    <p>
+        Assim com na tag < a >, o target indica onde a página de destino será aberta. 
+    </p>
+
+    <form target="_blank"></form>
+
+    <hr />
+
+    <strong>Elementos</strong>
+
+    <p>
+        Os formulários possuem campos onde inserimos os dados. Os campos mais comuns dos formulários são criados pela tag < input />, 
+        que tem o atributo type <br /> onde indicamos o tipo de campo que queremos. Vamos ver cada um deles. 
+    </p>
+</body>
+</html>

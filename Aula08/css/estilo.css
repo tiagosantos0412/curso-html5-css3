@@ -1,0 +1,17 @@
+div {
+	color: red;
+}
+
+.div2 {
+	background-color: #00ff55;
+}
+
+.div3 {
+	opacity: 0.5;
+}
+
+.div4 {
+	border-width: 5px;
+	border-style: solid;
+	border-color: #0b25aa; 
+}

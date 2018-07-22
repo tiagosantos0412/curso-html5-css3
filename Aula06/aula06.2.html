@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Aula 06.2</title>
+</head>
+<body>
+
+	<strong>Elementos para melhorar a Semântica</strong>
+
+	<p>
+		Antes era muito commum a criação de layouts utilizando a tag < table >. Isso hoje em dia é visto como um erro grave, pois a tabela são utilizadas para exibir <br /> dados.
+	</p>
+
+	<p>
+		Com o avanço do CSS, as pessoas pararam de usar tabela e a utilizar a tag < div > para criar os layouts, a tag < div > serve para criarmos divisões. <br /> Ela não exibe nada, a menos que a gente estilize com CSS.
+	</p>
+
+	<p>
+		O problema é que as pessoas começaram a utilizar a tag < div > para tudo, o que no final das contas não melhorou a semântica em relação a usar table. <br /> Com o HTML5, novas tags foram criadas para dar mais significado ao código. Imagine a estutura do seguinte blog:
+	</p>
+
+	<img src="imagens/aula06.2.png">
+
+	<p>
+		Poderiámos estruturar das seguintes maneiras.
+	</p>
+
+	<div class="cabecalho">
+		<div class="menu-navegacao">
+			
+		</div>	
+	</div>
+
+	<div class="conteduo-secundario">
+		
+	</div>
+
+	<div class="conetudo-principal">
+		<div class="post">
+			
+		</div>
+	</div>
+
+	<div class="rodape">
+		
+	</div>
+
+	<hr />
+
+	<p>
+		Estrutura de um site agora
+	</p>
+
+	<header class="cabecalho">
+		<nav class="menu-navegacao">
+			
+		</nav>
+	</header>
+	<aside class="conteduo-secundario">
+		
+	</aside>
+	<main class="conetudo-principal">
+		<article class="post">
+			
+		</article>
+	</main>
+	<footer class="rodape">
+		
+	</footer>
+
+</body>
+</html>

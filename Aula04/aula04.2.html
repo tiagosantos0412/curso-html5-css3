@@ -1,0 +1,160 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 04.2</title>
+</head>
+
+<body>
+    <strong>Inputs de Texto e Text Area</strong>
+
+    <p>
+        Para escrever um pequeno texto utilizamos a tag < input />. Note que ela não tem uma tag de fechamento, ela mesmo se fecha.
+    </p>
+    <p>
+        Quando não passamos o atributo type, por padrão ele será do tipo "text", mas é uma boa prática sempre usar o tipo.
+    </p>
+
+    <input type="text" placeholder="exemplo"/>
+
+    <p>
+        Podemos ainda passar outrs atributos na tag como:
+    </p>
+
+    <ul>
+        <li><strtong>placeholder</strtong> - texto que aparece quando o campo está vazio.</li>
+        <li><strtong>maxlength</strtong> - quantidade máxima de caracteres.</li>
+        <li><strtong>required</strtong> - indica que o campo é necessário, não permitindo submeter o formulário se o campo estiver em branco.</li>
+        <li><strtong>disable</strtong> - deixa o campo desabilitado.</li>
+        <li><strtong>readonly</strtong> - impede edições no campo, permitindo apenas que o usuário leia o valor.</li>
+    </ul>
+
+    <p>
+        Caso queira permitir que o usuário escreva mais de uma linha, utiliza a tag < textarea > < / textarea >
+    </p>
+
+    <textarea>Meu Texto</textarea>
+    <p>
+        No textarea podemos passar os atributos row e cols para indicar quantas linhas e colunas o campo irá exibir.
+    </p>
+
+    <p>
+        Voltando para a tag < input />, vamos ver os tipos:
+    </p>
+
+    <strong>Email, Search e Url</strong> <br /><br />
+
+    
+    <input type="email" placeholder="seu@email"/> <br /><br />
+    <input type="search" placeholder="search"/> <br /><br />
+    <input type="url" placeholder="url"/>
+
+    <p>
+        Esses são tipos idênticos ao tipo "text". Em dispositivos que exibem teclado na tela, como smartphones e tablets, esses 
+        tipos fazem com que o teclado <br />exibido seja diferente. Um exemplo é o tipo "email", que exibe uma tecla @, ou "url" 
+        que exibe uma tecla ".com".
+    </p>
+
+    <hr />
+
+    <strong>Number</strong>
+
+    <p>
+        Indica um campo do tipo nunmber. Em computadores o campo fica com botões para aumentar e diminuir o número. Em dispositivos 
+        com teclado  virtual é <br />exibido um teclado numérico.
+    </p>
+
+    <input type="number" />
+
+    <hr />
+
+    <strong>Radio Button</strong>
+
+    <p>
+        Cria um Radio Button, onde podemos selecionar apenas uma opção. Note que colocamos o mesmo nome nos dois inputs. Isso faz com que
+        o navegador<br /> entenda que ambos pertencem ao mesmo campo. Se passarmos nomes diferentes poderiámos selecionar os dois valores,
+        o que não é o objetivo dos Radio <br />Buttons.
+    </p>
+
+    <form>
+        <input type="radio" name="sexo" checked="checked" />Homem
+        <input type="radio" name="sexo" />Mulher
+    </form>
+
+    <hr />
+
+    <strong>CheckBox</strong>
+
+    <p>
+        Diferente do Radio Button, onde só selecionamos uma opção, o CheckBox serve para selecionarmos mais de uma opção.
+    </p>
+
+    <h1>Escolha quantas cores você desejar</h1>
+    <form>
+        <input type="checkbox" name="cor1" checked="checked"/> Azul
+        <input type="checkbox" name="cor2" /> Vermelho
+        <input type="checkbox" name="cor3" /> Amarelo
+    </form>
+
+    <hr />
+
+    <strong>Date, Time, Datetime-Local, Month e Week</strong>
+
+    <p>
+        Serve para selecionar Data e tempo.
+    </p>
+
+    <input type="date" />
+
+    <input type="time" />
+
+    <input type="datetime-local" />
+
+    <input type="month" />
+
+    <input type="week" />
+
+    <br /> <br />
+
+    <hr />
+
+    <strong>Range</strong>
+
+    <p>
+        Permite que op usuário escolha valores entre o mínimo e o máximo passados.
+    </p>
+
+    <input type="range" min="0" max="100" />
+
+    <hr />
+
+    <strong>Color</strong>
+
+    <p>
+        Abre uma paleta de cores para a seleção d euma cor.
+    </p>
+
+    <input type="color" />
+
+    <hr />
+
+    <strong>File</strong>
+
+    <p>
+        Permite que a gente selecione um arquivo do nosso computador.
+    </p>
+
+    <input type="text" /> <input type="file" />
+
+    <hr />
+
+    <strong>Button, Submit e Reset</strong>
+
+    <p>
+        Esses tipos criam um botão.<br />
+        O tipo "submit" é usado para que um usuário clique quando enviar um formulário.<br />
+        O tipo "reset" serve para quando o usuário quiser reiniciar um formulário. Cuidado, após clicar o formulário inteiro será apagado.
+    </p>
+    <input type="button" value="Botão" />
+    <hr />
+</body>
+</html>    
