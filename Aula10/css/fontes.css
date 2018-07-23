@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Allura');
+
+
+
+@font-face {
+  font-family: MinhaFonte;
+  src: url("AMAZR___.ttf");
+}
+
+p {
+  font-family: Allura, MinhaFonte;
+}
