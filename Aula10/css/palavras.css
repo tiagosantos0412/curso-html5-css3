@@ -1,0 +1,22 @@
+p{
+  letter-spacing: 2px;
+}
+
+p{
+  word-spacing: 10px;
+}
+
+p{
+    line-height: 200%;
+}
+
+div{
+  width: 400px;
+  border: solid 1px #cecece;
+}
+
+div{
+  width: 400px;
+  border: solid 1px #cecece;
+  white-space: pre;
+}

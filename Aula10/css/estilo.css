@@ -1,0 +1,26 @@
+p {
+	font-family: Arial, "Times New Roman";
+
+}
+
+p {
+	font-style: oblique;
+	font-size: x-large;
+	color: red;
+	text-indent: 20px;
+	text-align: justify;
+	text-decoration: underline;
+	text-transform: capitalize;
+	text-shadow: 2px 2px 5px #ff0000;
+}
+
+p {
+	word-spacing: 10px;
+	line-height: 200%; 
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
