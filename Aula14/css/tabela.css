@@ -1,0 +1,15 @@
+
+table, th, td, th {
+	border: 1px solid black;
+	empty-cells: hide;
+}
+
+caption {
+	caption-side: bottom;
+	background-color: lightblue;
+}
+
+thead {
+	background-color: seagreen;
+	color: black;
+}

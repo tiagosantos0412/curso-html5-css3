@@ -1,0 +1,12 @@
+.lista_1{
+  list-style-image: url(https://treinaweb-cursos.s3.amazonaws.com/prod/5/arquivos/seta.gif);
+}
+
+ul{
+  list-style-position: outside;
+}
+
+.lista2 li {
+	list-style-type: square;
+	float: both;
+}
